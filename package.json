@@ -1,6 +1,8 @@
 {
   "name": "apatheia-translucent",
   "displayName": "Apatheia Translucent",
+  "publisher": "AmadeusWolf",
+  "repository": "git@github.com:AmadeusWM/apatheia-translucent-vs-code.git",
   "description": "Translucent version of the apatheia theme",
   "version": "0.0.1",
   "engines": {

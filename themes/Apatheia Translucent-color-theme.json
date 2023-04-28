@@ -1,6 +1,6 @@
 // tutorial publishing: https://medium.com/wearelaika/vscode-create-your-own-custom-theme-extension-96c67bd753f6
 // original background-color: #181825
-// transparant background-color: #18182544
+// transparant background-color: #18182500
 // editor background-color: #0B0A1055
 // most important attrs: https://i.stack.imgur.com/pRcYl.png (from https://stackoverflow.com/questions/42129268/how-do-i-set-the-sidebar-color-in-vscode)
 // all attrs: https://code.visualstudio.com/api/references/theme-color#side-bar
@@ -67,7 +67,7 @@
 		"list.filterMatchBackground": "#858ba366",
 		"list.filterMatchBorder": "#9399b266",
 		// left-most bar
-		"activityBar.background": "#18182544",
+		"activityBar.background": "#18182500",
 		"activityBar.foreground": "#b7c2ffcc",
 		"activityBar.inactiveForeground": "#a5abd099",
 		"activityBar.activeBorder": "#cba6f7b3",
@@ -75,11 +75,11 @@
 		"activityBarBadge.foreground": "#181825",
 		// sidebar
 		// these shitty shits are overlapping ??????
-		"sideBar.background": "#18182544",
+		"sideBar.background": "#18182500",
 		"sideBarTitle.foreground": "#cba6f7",
 		"sideBarSectionHeader.background": "#18182500",
 		"sideBarSectionHeader.foreground": "#cba6f7",
-		"minimap.background": "#18182544",
+		"minimap.background": "#18182500",
 		"minimap.selectionHighlight": "#89b4fa40",
 		"minimap.errorHighlight": "#e65f85",
 		"minimap.findMatchHighlight": "#9399b2",
@@ -88,9 +88,9 @@
 		"minimapGutter.deletedBackground": "#f38ba8",
 		"editorGroup.border": "#11111b",
 		"editorGroup.background": "#181825",
-		"editorGroupHeader.noTabsBackground": "#18182544",
+		"editorGroupHeader.noTabsBackground": "#18182500",
 		"editorGroupHeader.tabsBackground": "#18182500",
-		"editorGroupHeader.tabsBorder": "#18182544",
+		"editorGroupHeader.tabsBorder": "#18182500",
 		"tab.activeBackground": "#18182500",
 		"tab.activeForeground": "#cdd6f4",
 		"tab.border": "#18182500",
@@ -147,11 +147,14 @@
 		"diffEditor.insertedTextBackground": "#a6e3a11f",
 		"diffEditor.removedTextBackground": "#f38ba81f",
 		"diffEditor.diagonalFill": "#11111b",
-		"editorWidget.background": "#18182588",
+		// popup on top, for e.g. the ctrl + p menu
+		"editorWidget.background": "#181825",
 		"editorWidget.border": "#11111b",
-		"editorHoverWidget.background": "#18182588",
+		// idk, some hover thing
+		"editorHoverWidget.background": "#181825",
 		"editorHoverWidget.border": "#11111b",
-		"editorSuggestWidget.background": "#18182588",
+		// suggestions in code, e.g. when using ctrl + .
+		"editorSuggestWidget.background": "#181825",
 		"editorSuggestWidget.border": "#11111b",
 		"editorSuggestWidget.highlightForeground": "#cba6f7",
 		"editorSuggestWidget.selectedBackground": "#9399b226",
@@ -170,13 +173,13 @@
 		"peekViewResult.lineForeground": "#6c7086",
 		"peekViewResult.matchHighlightBackground": "#9399b266",
 		"peekViewResult.selectionBackground": "#9399b226",
-		"panel.background": "#18182544",
+		"panel.background": "#18182500",
 		"panel.border": "#11111b00",
 		"panelTitle.activeBorder": "#cba6f7",
 		"panelTitle.activeForeground": "#cdd6f4",
 		"panelTitle.inactiveForeground": "#a3abd7",
 		// bottom, with terminal
-		"statusBar.background": "#18182544",
+		"statusBar.background": "#18182500",
 		"statusBar.foreground": "#a5abd0",
 		"statusBar.debuggingBackground": "#f5c2e7",
 		"statusBar.debuggingForeground": "#1e1e2e",
