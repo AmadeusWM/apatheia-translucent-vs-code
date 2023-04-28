@@ -1,3 +1,4 @@
+// theme manager for state of upload: https://marketplace.visualstudio.com/manage/publishers/amadeuswolf
 // tutorial publishing: https://medium.com/wearelaika/vscode-create-your-own-custom-theme-extension-96c67bd753f6
 // original background-color: #181825
 // transparant background-color: #18182500
@@ -8,7 +9,7 @@
 	"type": "dark",
 	"colors": {
 		"focusBorder": "#cba6f7b3",
-		"foreground": "#6c7086",
+		"foreground": "#b7c2ffcc",
 		"widget.shadow": "#11111bb3",
 		"selection.background": "#89b4fa40",
 		"icon.foreground": "#6c7086",
@@ -24,7 +25,7 @@
 		"button.secondaryBackground": "#6c708633",
 		"button.secondaryForeground": "#cdd6f4",
 		"button.secondaryHoverBackground": "#6c708680",
-		"dropdown.background": "#000000",
+		"dropdown.background": "#181825",
 		"dropdown.foreground": "#6c7086",
 		"dropdown.border": "#6c708645",
 		"input.background": "#1e1e2e55",

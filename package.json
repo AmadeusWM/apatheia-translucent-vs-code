@@ -4,7 +4,7 @@
   "publisher": "AmadeusWolf",
   "repository": "git@github.com:AmadeusWM/apatheia-translucent-vs-code.git",
   "description": "Translucent version of the apatheia theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.77.0"
   },
